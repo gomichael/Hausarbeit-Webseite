@@ -1,0 +1,285 @@
+
+@font-face { font-family: 'Plain Germanica'; src: url('Plain Germanica.ttf') format('truetype'); }
+
+/* reset */
+*{
+padding:0;
+margin:0;
+}
+
+body{
+background: url('imgs/bg.jpg');
+font-family: arial;
+font-size: 12pt;
+}
+
+#wrapper{
+margin: 0 auto;
+width: 960px;
+background: url('imgs/wrapper.png')no-repeat;
+background-size: 100%;
+}
+
+h1 {
+font-family: 'Plain Germanica';
+font-size: 60pt;
+text-align: center;
+margin: 5px 5px 5px 5px;
+}
+
+h2 {
+font-family: 'Plain Germanica';
+font-size: 35pt;
+text-align: center;
+margin: 5px 5px 5px 5px;
+}
+
+#header1 {
+color: #FFCC66;
+text-align: center;
+float: left;
+width: 100%;
+height:190px;
+}
+
+	#logo{
+	background: url('imgs/logo.png')no-repeat;
+	background-size: 100%;
+	float: left;
+	margin: 5px 5px 5px 20px;
+	width: 160px;
+	height:160px;
+	}
+
+.header2 {
+font-family: 'Plain Germanica';
+font-size: 18pt;
+background: url('imgs/wrapper.png')no-repeat;
+background-size: 100%;
+float: left;
+width: 100%;
+height:30px;
+padding: 5px 0 5px 0;
+
+}
+		.header2 a:link {
+		  padding: 5px 10px;
+		  background-color: #FFCC66;
+		  color:            #A0522D;
+		  text-decoration:none;
+		}
+
+		.header2 a:visited {
+		  background-color: #FFCC66;
+		  color:            #A0522D;
+		  text-decoration:none;
+		}
+
+		.header2 a:hover {
+		  background-color: #A0522D;
+		  color:            #FFCC66;
+		  text-decoration:none;
+		}
+
+		.header2 a:active {
+		  background-color: #A0522D;
+		  color:            #FFCC66;
+		  text-decoration:none;
+}
+	#login{
+	float:right;
+	padding: 5px 10px;
+	}
+		
+	#lederbeutel{
+	float:right;
+	padding: 5px 10px;
+}
+
+#navigationoben {
+font-family: 'Plain Germanica';
+font-size: 18pt;
+background: url('imgs/wrapper.png')no-repeat;
+background-size: 100%;
+float: left;
+width: 100%;
+height:auto;
+
+}
+	#navcontainer{
+	float: left;
+	position: relative;
+	left: 50%;
+	}
+
+	#navcontainer2{
+	float: left;
+	position: relative;
+	left: -50%;
+}
+
+.navigation1 {
+float:left;
+width:100%;
+}
+
+		.navigation1 ul {
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		}
+
+		.navigation1 li {
+		display: inline;		
+		list-style:none;}
+
+		.navigation1 li  a{
+		float:left;
+		color: #FFCC66;
+		padding: 5px 10px ;
+		text-decoration:none;
+		list-style:none;
+		}
+
+		.navigation1 Li  a:hover{
+		background-color:	#A0522D;
+		color: #fff;
+		}
+		
+		.navigation1 Li  a:active{
+		background-color:	#A0522D;
+		color: #fff;
+		}
+
+		
+
+#content{
+float:right;
+background: url('imgs/ocker.png')no-repeat;
+background-size: 100%;
+margin: 5px 5px 5px 0;
+padding:5px 5px 5px 5px;
+width:650px;
+height: auto;
+}
+
+h3 {
+font-family: 'Plain Germanica';
+font-size: 18pt;
+text-align: center;
+margin: 5px 5px 5px 5px;
+}
+
+
+#navigationlinks{
+font-family:'Plain Germanica';
+font-size: 18px;
+background: url('imgs/ocker.png')no-repeat;
+background-size: 100%;
+float:right;
+margin:5px 5px 5px 5px;
+width:284px;
+height:auto;
+}
+
+	#search_form{
+	margin: 10px 5px 5px 5px;
+	}
+
+	#search_form input{
+	padding: 5px;
+	}
+
+		.navigation2 {
+		float:left;
+		width:240px;
+		font-size: 18pt;
+		}
+
+		.navigation2 ul {
+			 margin: 0;
+			 padding: 0;
+		}
+
+		.navigation2 li {
+		list-style: none; 
+		border-bottom: 1px dotted #ddd;
+		}
+
+		.navigation2 li  a{
+		color: #333;
+		padding: 5px 10px;
+		text-decoration:none;
+		}
+
+		.navigation2 Li  a:hover{
+		color: #fff;
+		}
+
+
+.footer{
+clear:both;
+text-align:center;
+font-family: 'Plain Germanica';
+font-size: 18pt;
+background: url('imgs/wrapper.png')no-repeat;
+background-size: 100%;
+width:100%;
+height: 50px;
+}
+
+		.footer a:link {
+		  padding:5px 10px ;
+		  color:#FFCC66;
+		  text-decoration:none;
+		}
+
+		.footer a:visited {
+		  color:#FFCC66;
+		  text-decoration:none;
+		}
+
+		.footer a:hover {
+		  background-color:#A0522D;
+		  color:#fff;
+		  text-decoration:none;
+		}
+
+		.footer a:active {
+		  background-color:#CCCCFF;
+		  color:#CC0000;
+		  text-decoration:none;
+		}
+  
+
+	#footercontainer{
+	float: left;
+	position: relative;
+	left: 50%;
+	}
+
+	#footercontainer2{
+	float: left;
+	position: relative;
+	left: -50%;
+	}
+
+		#agb{
+		float:left;
+		position: relative;
+		margin: 10px 30px 10px 0;
+		}
+
+		#impressum{
+		float:left;
+		position: relative;
+		margin: 10px 30px 10px 0;
+		}
+
+		#kontakt{
+		float:left;
+		position: relative;
+		margin: 10px 30px 10px 0;
+		}
+
+
